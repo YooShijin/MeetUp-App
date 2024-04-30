@@ -4,7 +4,7 @@
 
 const mongoose = require("mongoose");
 const dbURL =
-  "mongodb+srv://asmit0:OkayGoogle@cluster0.qv1o2xw.mongodb.net/meetups";
+  "mongodb+srv://username:password@cluster0.qv1o2xw.mongodb.net/meetups";
 
 mongoose.connect(dbURL);
 
