@@ -3,9 +3,8 @@
 // /api/new-meetup
 
 const mongoose = require("mongoose");
-const dbURL =
-  "mongodb+srv://username:password@cluster0.qv1o2xw.mongodb.net/meetups";
-
+const dbURL = process.env.DB_URL;
+console.log(dbURL);
 mongoose.connect(dbURL);
 
 const schema = new mongoose.Schema({
